@@ -1,5 +1,6 @@
 #支持私库
 #支持指定架构
 #infiniflow/ragflow-base:v2.0
+#--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-continuumio/anaconda3:latest
+--platform=linux/arm64 continuumio/anaconda3:latest
