@@ -3,4 +3,4 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-duolabmeng666/paddlehub_ppocr:1.2
+registry.cn-hongkong.aliyuncs.com/llapi/ppocr:1.6.server
