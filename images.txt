@@ -3,4 +3,4 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
---platform=linux/amd64 python:3.7.10-slim
+duolabmeng666/paddlehub_ppocr:1.2
