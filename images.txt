@@ -3,5 +3,5 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-minio/minio:RELEASE.2024-12-18T13-15-44Z
+mysql:8.0
 
