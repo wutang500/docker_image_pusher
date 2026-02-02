@@ -3,5 +3,4 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-apachepulsar/pulsar:2.8.2
 --platform=linux/arm64 apachepulsar/pulsar:2.8.2
