@@ -3,4 +3,4 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v18.9.0
+alpine:latest
