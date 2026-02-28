@@ -3,5 +3,4 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-python:3.12-slim
---platform=linux/arm64 python:3.12-slim
+gitlab/gitlab-runner:latest
