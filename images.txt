@@ -3,4 +3,5 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-alpine:latest
+clickhouse/clickhouse-server:23.4
+--platform=linux/arm64 clickhouse/clickhouse-server:23.4
