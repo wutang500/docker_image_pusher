@@ -3,4 +3,5 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-minio/minio:RELEASE.2024-12-18T13-15-44Z-cpuv1
+bitnamilegacy/etcd:3.5.7
+apache/apisix:3.17.0-ubuntu
