@@ -4,4 +4,4 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
 bitnamilegacy/etcd:3.5.7
-apache/apisix:3.17.0-ubuntu
+apache/apisix:3.17.0-debain
