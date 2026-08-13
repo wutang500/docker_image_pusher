@@ -3,5 +3,4 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-docker.litellm.ai/berriai/litellm-database:latest
-postgres:16
+postgres:16-alpine
