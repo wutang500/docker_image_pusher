@@ -3,6 +3,6 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-mysql:8.0.46
---platform=linux/arm64 mysql:8.0.46
+milvusdb/milvus:v2.6.10
+--platform=linux/arm64 milvusdb/milvus:v2.6.10
 
