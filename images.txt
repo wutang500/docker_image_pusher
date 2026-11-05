@@ -3,6 +3,4 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-node:24-alpine
-golang:1.26
-rust:1.98.0-alpine3.24
+debian:bookworm-slim
