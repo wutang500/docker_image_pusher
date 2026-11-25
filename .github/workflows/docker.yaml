@@ -25,22 +25,32 @@ jobs:
         df -hT
         echo "=============================================================================="
 
-    # 增加可用磁盘空间
-    - name: Maximize build space
+    - name: Free disk space
+      uses: jlumbroso/free-disk-space@main
+      with:
+        tool-cache: true
+        android: true
+        dotnet: true
+        haskell: true
+        large-packages: true
+        docker-images: true
+        swap-storage: false   
+
+    - name: Maximize build space (containerd aware)
       uses: easimon/maximize-build-space@master
       with:
-
-        root-reserve-mb: 2048
-        swap-size-mb: 128
+        root-reserve-mb: 1024
+        swap-size-mb: 0
         remove-dotnet: 'true'
         remove-haskell: 'true'
-        # 如果空间还是不够用，可以把以下开启，清理出更多空间
-        # remove-android: 'true'
-        # remove-codeql: 'true'
-        build-mount-path: '/var/lib/docker/'
-
+        remove-android: 'true'
+        remove-codeql: 'true'
+        build-mount-path: '/var/lib/containerd/'
+    
     - name: Restart docker
-      run: sudo service docker restart
+      run: |
+        sudo systemctl restart containerd
+        sudo systemctl restart docker
 
     - name: Free up disk space complete
       run: |
