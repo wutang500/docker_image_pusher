@@ -3,4 +3,4 @@
 #infiniflow/ragflow-base:v2.0
 #--platform=linux/arm64 xiaoyaliu/alist
 #redis:7.2.4
-jenkinsci/blueocean:latest
+jenkins/jenkins:2.580.3
